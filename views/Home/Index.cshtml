@@ -1,0 +1,117 @@
+@model smSystem.Models.Stats
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+                using smSystem.Models;
+
+                #line default to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .fade-in {
+                animation: fadeIn 0.6s ease-out;
+            }
+    </style>
+</head>
+
+<body class=" text-black relative min-h-screen overflow-hidden">
+    <div class="absolute inset-0 bg-cover bg-center opacity-20 blur-sm z-0"
+        style="background-image: url('/images/bck.jpg');"></div>
+    <div class="relative z-10">
+        <nav class="bg-black text-white shadow-lg"></nav>
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold">School Management System</div>
+                <div class="flex space-x-6">
+                    <a href="/Home"
+                        class="hover:text-gray-300 transition-colors duration-200 font-medium border-b-2 border-white">Home</a>
+                    <a href="/Home/AddSchool" class="hover:text-gray-300 transition-colors duration-200">Add School</a>
+                    <a href="/Home/AddStudent" class="hover:text-gray-300 transition-colors duration-200">Add
+                        Student</a>
+                    <a href="/Home/ViewData" class="hover:text-gray-300 transition-colors duration-200">View Data</a>
+                </div>
+            </div>
+        </div>
+        </nav>
+
+        <main class="max-w-6xl mx-auto px-4 py-12">
+            <div class="text-center fade-in">
+                <h1 class="text-5xl font-bold mb-6 text-black">School Management System</h1>
+                <p class="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+                    Efficiently manage schools and students with our comprehensive management platform.
+                    Add institutions, register students, and view organized data seamlessly.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-8 mt-16">
+                    <div
+                        class="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-black hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="text-4xl mb-4">🏫</div>
+                        <h3 class="text-2xl font-bold mb-4">Add School</h3>
+                        <p class="text-gray-600 mb-6">Register new educational institutions with detailed information.
+                        </p>
+                        <a href="/Home/AddSchool"
+                            class="inline-block bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium">
+                            Add School
+                        </a>
+                    </div>
+
+                    <div
+                        class="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-black hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="text-4xl mb-4">👨‍🎓</div>
+                        <h3 class="text-2xl font-bold mb-4">Add Student</h3>
+                        <p class="text-gray-600 mb-6">Enroll students and assign them to their respective schools.</p>
+                        <a href="/Home/AddStudent"
+                            class="inline-block bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium">
+                            Add Student
+                        </a>
+                    </div>
+
+                    <div
+                        class="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-black hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="text-4xl mb-4">📊</div>
+                        <h3 class="text-2xl font-bold mb-4">View Data</h3>
+                        <p class="text-gray-600 mb-6">Browse all schools and their enrolled students in organized view.
+                        </p>
+                        <a href="/Home/ViewData"
+                            class="inline-block bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium">
+                            View Data
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-20 grid md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 rounded-lg p-8">
+                        <h4 class="text-3xl font-bold mb-2" id="schoolCount">@Model.TotalSchool</h4>
+                        <p class="text-gray-600">Total Schools</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-8">
+                        <h4 class="text-3xl font-bold mb-2" id="studentCount">@Model.TotalStudent</h4>
+                        <p class="text-gray-600">Total Students</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-black text-white py-8 mt-20">
+            <div class="max-w-6xl mx-auto px-4 text-center">
+                <p>&copy; Samadrit das</p>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
