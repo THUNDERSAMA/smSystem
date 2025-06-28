@@ -95,3 +95,4 @@ J:\dotnet project\smSystem\obj\Debug\net9.0\refint\smSystem.dll
 J:\dotnet project\smSystem\obj\Debug\net9.0\smSystem.pdb
 J:\dotnet project\smSystem\obj\Debug\net9.0\smSystem.genruntimeconfig.cache
 J:\dotnet project\smSystem\obj\Debug\net9.0\ref\smSystem.dll
+J:\dotnet project\smSystem\obj\Debug\net9.0\smSystem.sourcelink.json

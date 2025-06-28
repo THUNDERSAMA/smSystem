@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "J:\\dotnet project\\smSystem\\wwwroot\\images\\bck.jpg",
+      "PackagePath": "staticwebassets\\images\\bck.jpg"
+    },
+    {
       "Id": "J:\\dotnet project\\smSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

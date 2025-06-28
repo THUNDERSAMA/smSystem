@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TPGht7JhdRy+G3QFlbbvyXQL+ku5LMt6sLzHJS7CfGg=",
+  "Hash": "NXWtFycDNK88K6P2adTKal107KYoV0J0edS0reWGT2o=",
   "Source": "smSystem",
   "BasePath": "_content/smSystem",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "J:\\dotnet project\\smSystem\\wwwroot\\images\\bck.jpg",
+      "SourceId": "smSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "J:\\dotnet project\\smSystem\\wwwroot\\",
+      "BasePath": "_content/smSystem",
+      "RelativePath": "images/bck#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sj986m5zdx",
+      "Integrity": "qC/X9Yz/573QYwI0UdKDKAhleU7pyXs+yRvtCfa8cWI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bck.jpg"
     },
     {
       "Identity": "J:\\dotnet project\\smSystem\\wwwroot\\js\\site.js",
@@ -3320,6 +3341,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "images/bck.jpg",
+      "AssetFile": "J:\\dotnet project\\smSystem\\wwwroot\\images\\bck.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1241516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qC/X9Yz/573QYwI0UdKDKAhleU7pyXs+yRvtCfa8cWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 06:34:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qC/X9Yz/573QYwI0UdKDKAhleU7pyXs+yRvtCfa8cWI="
+        }
+      ]
+    },
+    {
+      "Route": "images/bck.sj986m5zdx.jpg",
+      "AssetFile": "J:\\dotnet project\\smSystem\\wwwroot\\images\\bck.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1241516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qC/X9Yz/573QYwI0UdKDKAhleU7pyXs+yRvtCfa8cWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 06:34:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sj986m5zdx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bck.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qC/X9Yz/573QYwI0UdKDKAhleU7pyXs+yRvtCfa8cWI="
         }
       ]
     },
